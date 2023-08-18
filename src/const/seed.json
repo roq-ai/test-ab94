@@ -1,0 +1,2672 @@
+[
+  {
+    "stock": [
+      {
+        "id": "d1d50fec-e28f-4646-a870-8a71190009a2",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 66696,
+        "quantity": 60356,
+        "created_at": "2023-08-17T10:51:25.090Z",
+        "updated_at": "2023-08-17T16:29:29.347Z"
+      },
+      {
+        "id": "967d95a7-04c2-47d3-a90c-010af129c5d2",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NYSE",
+        "price": 65649,
+        "quantity": 90420,
+        "created_at": "2023-08-18T01:38:19.718Z",
+        "updated_at": "2023-08-18T02:56:19.167Z"
+      },
+      {
+        "id": "9a43ab2f-2c71-4f2a-ae8d-9e4d547a144f",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "LSE",
+        "price": 47596,
+        "quantity": 84631,
+        "created_at": "2023-08-17T21:12:04.140Z",
+        "updated_at": "2023-08-17T08:42:18.904Z"
+      },
+      {
+        "id": "dad1c696-bbe2-48fd-baa2-38152592e465",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "TSE",
+        "price": 33610,
+        "quantity": 18389,
+        "created_at": "2023-08-17T10:38:22.825Z",
+        "updated_at": "2023-08-17T08:08:50.111Z"
+      },
+      {
+        "id": "a41e352c-4bb2-4275-bfd4-24fd1b70de76",
+        "name": "Facebook Inc.",
+        "ticker_symbol": "FB",
+        "market": "SSE",
+        "price": 71166,
+        "quantity": 42341,
+        "created_at": "2023-08-17T07:18:48.275Z",
+        "updated_at": "2023-08-18T02:01:00.175Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "9056c902-0210-4100-9615-a032e5951af3",
+        "purchase_price": 15966,
+        "purchase_date": "2023-08-17T08:20:11.853Z",
+        "quantity": 52410,
+        "created_at": "2023-08-17T23:28:51.360Z",
+        "updated_at": "2023-08-17T15:08:58.471Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "dad1c696-bbe2-48fd-baa2-38152592e465"
+      },
+      {
+        "id": "13c7c3c6-695f-4ea9-b430-3a4a6f24f138",
+        "purchase_price": 1027,
+        "purchase_date": "2023-08-17T17:23:11.959Z",
+        "quantity": 37152,
+        "created_at": "2023-08-18T04:30:09.905Z",
+        "updated_at": "2023-08-17T18:57:28.636Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "967d95a7-04c2-47d3-a90c-010af129c5d2"
+      },
+      {
+        "id": "638be167-3495-4b0a-a1f0-68df24ca0216",
+        "purchase_price": 65272,
+        "purchase_date": "2023-08-18T04:35:46.031Z",
+        "quantity": 44504,
+        "created_at": "2023-08-17T13:52:20.050Z",
+        "updated_at": "2023-08-18T05:43:07.628Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "967d95a7-04c2-47d3-a90c-010af129c5d2"
+      },
+      {
+        "id": "6bc88ef8-6cca-43b0-8685-d62943c07e33",
+        "purchase_price": 67021,
+        "purchase_date": "2023-08-17T22:28:15.186Z",
+        "quantity": 79545,
+        "created_at": "2023-08-17T17:37:24.742Z",
+        "updated_at": "2023-08-17T11:42:28.777Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "967d95a7-04c2-47d3-a90c-010af129c5d2"
+      },
+      {
+        "id": "e177f6d4-eeea-409c-af19-07ed5be8a2a1",
+        "purchase_price": 62835,
+        "purchase_date": "2023-08-17T21:07:16.277Z",
+        "quantity": 63249,
+        "created_at": "2023-08-18T02:08:07.607Z",
+        "updated_at": "2023-08-17T17:41:53.421Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "a41e352c-4bb2-4275-bfd4-24fd1b70de76"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "1fbbafc9-8457-4714-aa06-3708ad9ad62c",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T13:05:28.457Z",
+        "transaction_price": 24583,
+        "quantity": 54024,
+        "created_at": "2023-08-17T08:01:56.970Z",
+        "updated_at": "2023-08-17T06:09:54.072Z",
+        "holding_id": "e177f6d4-eeea-409c-af19-07ed5be8a2a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dc3b468-cf62-43e6-a907-45d28a9d1577",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-17T13:59:12.877Z",
+        "transaction_price": 4548,
+        "quantity": 26671,
+        "created_at": "2023-08-17T17:32:47.546Z",
+        "updated_at": "2023-08-17T18:28:55.602Z",
+        "holding_id": "638be167-3495-4b0a-a1f0-68df24ca0216",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f0eca9b-40c4-4fb0-84d4-e3b74113cfe1",
+        "transaction_type": "Deposit",
+        "transaction_date": "2023-08-18T00:01:24.624Z",
+        "transaction_price": 77259,
+        "quantity": 33521,
+        "created_at": "2023-08-17T23:07:22.697Z",
+        "updated_at": "2023-08-18T01:55:21.520Z",
+        "holding_id": "638be167-3495-4b0a-a1f0-68df24ca0216",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a77d76fe-ca34-476e-a6e0-0150b460ae79",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-18T03:09:56.427Z",
+        "transaction_price": 46404,
+        "quantity": 87810,
+        "created_at": "2023-08-18T04:38:10.602Z",
+        "updated_at": "2023-08-17T07:24:11.184Z",
+        "holding_id": "638be167-3495-4b0a-a1f0-68df24ca0216",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4accda8-f664-4fe1-ae6a-9fa65d16e6c5",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-17T20:17:53.657Z",
+        "transaction_price": 23131,
+        "quantity": 96217,
+        "created_at": "2023-08-17T08:18:02.144Z",
+        "updated_at": "2023-08-17T14:35:34.092Z",
+        "holding_id": "638be167-3495-4b0a-a1f0-68df24ca0216",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "d361073f-3995-4008-b5d7-44662ab5d307",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-18T03:17:33.786Z",
+        "end_date": "2023-08-17T23:58:25.585Z",
+        "created_at": "2023-08-18T00:20:24.761Z",
+        "updated_at": "2023-08-17T23:37:19.905Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc72b0b4-8e88-4b92-bb4f-427c691ce966",
+        "role": "Superuser",
+        "status": "Inactive",
+        "start_date": "2023-08-17T15:38:02.908Z",
+        "end_date": "2023-08-17T16:39:14.380Z",
+        "created_at": "2023-08-17T13:49:17.676Z",
+        "updated_at": "2023-08-17T13:41:07.809Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a14fd74-2fb4-4022-bd67-bd1d0432b3e1",
+        "role": "Manager",
+        "status": "Pending",
+        "start_date": "2023-08-17T11:20:38.314Z",
+        "end_date": "2023-08-18T02:12:08.034Z",
+        "created_at": "2023-08-17T19:39:38.259Z",
+        "updated_at": "2023-08-18T01:02:51.702Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d928adee-01f2-4ac7-a2ab-8741c6b7f0f8",
+        "role": "Supervisor",
+        "status": "Blocked",
+        "start_date": "2023-08-17T16:22:40.764Z",
+        "end_date": "2023-08-17T17:35:02.359Z",
+        "created_at": "2023-08-17T22:05:35.552Z",
+        "updated_at": "2023-08-17T14:39:50.038Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "259d1370-5d0e-4e8a-903a-90739f026ae8",
+        "role": "Analyst",
+        "status": "Suspended",
+        "start_date": "2023-08-18T01:49:47.896Z",
+        "end_date": "2023-08-18T04:21:16.295Z",
+        "created_at": "2023-08-17T22:44:58.478Z",
+        "updated_at": "2023-08-18T01:37:15.845Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1411ec8f-25f0-4198-a8ce-c1bf62ed4e1b",
+        "email": "Monserrate_OKon70@yahoo.com",
+        "firstName": "Noemy",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29185284",
+        "tenantId": null
+      },
+      {
+        "reference": "51f9f1c8-5a3d-40e7-91c7-ca2349112bef",
+        "email": "Kenna78@yahoo.com",
+        "firstName": "Rosalinda",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16757038",
+        "tenantId": null
+      },
+      {
+        "reference": "dfe73904-6d72-4d63-ac72-eebf5b380c30",
+        "email": "Pearline48@gmail.com",
+        "firstName": "Marcelle",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11913642",
+        "tenantId": null
+      },
+      {
+        "reference": "8fe3fb1d-b910-4fa9-b5ca-bad38000d3bd",
+        "email": "Wilber79@gmail.com",
+        "firstName": "Consuelo",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/571.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8a578758-2002-4d4b-9a2b-0dc5bc3bf57c",
+        "email": "Chanel.Hessel@gmail.com",
+        "firstName": "Geo",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1195.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "0cf086ca-abbe-4266-841b-f19ddf0fe4c3",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 33922,
+        "quantity": 48844,
+        "created_at": "2023-08-17T19:56:38.383Z",
+        "updated_at": "2023-08-17T15:39:17.254Z"
+      },
+      {
+        "id": "eb93854d-461c-466c-9377-d444ac6be02f",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NYSE",
+        "price": 71908,
+        "quantity": 85401,
+        "created_at": "2023-08-17T06:20:46.893Z",
+        "updated_at": "2023-08-17T07:07:18.190Z"
+      },
+      {
+        "id": "a8c13dc2-03e5-4bd8-924a-a97bfd71c9da",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "LSE",
+        "price": 39403,
+        "quantity": 86451,
+        "created_at": "2023-08-18T04:57:00.177Z",
+        "updated_at": "2023-08-17T11:10:14.935Z"
+      },
+      {
+        "id": "1ed3ce4c-ec24-4da6-b169-6a1e2da9b50f",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "TSE",
+        "price": 82096,
+        "quantity": 81179,
+        "created_at": "2023-08-17T10:29:41.454Z",
+        "updated_at": "2023-08-17T14:51:13.490Z"
+      },
+      {
+        "id": "28da43ef-1c0c-41f1-90d3-1c3770ae5d75",
+        "name": "Facebook Inc.",
+        "ticker_symbol": "FB",
+        "market": "SSE",
+        "price": 21227,
+        "quantity": 78776,
+        "created_at": "2023-08-17T06:14:05.593Z",
+        "updated_at": "2023-08-17T11:44:55.883Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "4767d657-e0ec-405f-82d2-57567dbfc7f0",
+        "purchase_price": 40364,
+        "purchase_date": "2023-08-17T08:00:42.331Z",
+        "quantity": 97313,
+        "created_at": "2023-08-18T04:41:36.308Z",
+        "updated_at": "2023-08-17T13:02:33.002Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "28da43ef-1c0c-41f1-90d3-1c3770ae5d75"
+      },
+      {
+        "id": "1f4fcfbf-8daa-415c-bddd-fa2eeb9ee61a",
+        "purchase_price": 49586,
+        "purchase_date": "2023-08-18T01:08:30.672Z",
+        "quantity": 99128,
+        "created_at": "2023-08-17T21:52:56.155Z",
+        "updated_at": "2023-08-17T19:01:36.829Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "a8c13dc2-03e5-4bd8-924a-a97bfd71c9da"
+      },
+      {
+        "id": "f99e060d-7ec3-4257-a32a-a6332ee4b512",
+        "purchase_price": 99721,
+        "purchase_date": "2023-08-17T06:41:20.755Z",
+        "quantity": 76606,
+        "created_at": "2023-08-17T09:41:38.204Z",
+        "updated_at": "2023-08-18T04:11:39.052Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "0cf086ca-abbe-4266-841b-f19ddf0fe4c3"
+      },
+      {
+        "id": "0f2b1664-4f3d-444d-9e42-4ffaf46cbda9",
+        "purchase_price": 18968,
+        "purchase_date": "2023-08-17T07:44:31.174Z",
+        "quantity": 62864,
+        "created_at": "2023-08-17T13:10:55.805Z",
+        "updated_at": "2023-08-18T02:56:34.319Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "1ed3ce4c-ec24-4da6-b169-6a1e2da9b50f"
+      },
+      {
+        "id": "b59540b6-5c68-4422-b7bd-51c684c8acaa",
+        "purchase_price": 34709,
+        "purchase_date": "2023-08-17T14:37:50.339Z",
+        "quantity": 23031,
+        "created_at": "2023-08-17T17:42:32.344Z",
+        "updated_at": "2023-08-17T12:19:25.583Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "a8c13dc2-03e5-4bd8-924a-a97bfd71c9da"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "7dc25443-2f19-446e-b017-cae20bf1fd6a",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T08:59:18.033Z",
+        "transaction_price": 67702,
+        "quantity": 74002,
+        "created_at": "2023-08-17T19:14:55.939Z",
+        "updated_at": "2023-08-17T16:48:52.573Z",
+        "holding_id": "f99e060d-7ec3-4257-a32a-a6332ee4b512",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54f598e3-ce97-42c5-bd2c-1a9992fa2a95",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-17T12:00:01.190Z",
+        "transaction_price": 15719,
+        "quantity": 90149,
+        "created_at": "2023-08-17T22:42:05.616Z",
+        "updated_at": "2023-08-17T13:26:12.762Z",
+        "holding_id": "f99e060d-7ec3-4257-a32a-a6332ee4b512",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac34837a-55fe-4862-b9c4-60e0da3d2afe",
+        "transaction_type": "Deposit",
+        "transaction_date": "2023-08-17T18:40:13.602Z",
+        "transaction_price": 86068,
+        "quantity": 2158,
+        "created_at": "2023-08-17T15:15:45.979Z",
+        "updated_at": "2023-08-17T20:56:17.944Z",
+        "holding_id": "f99e060d-7ec3-4257-a32a-a6332ee4b512",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "695330fc-05f1-4a07-9356-7d7e4a41a21e",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-17T08:34:50.679Z",
+        "transaction_price": 21675,
+        "quantity": 95892,
+        "created_at": "2023-08-17T17:00:06.107Z",
+        "updated_at": "2023-08-18T00:03:39.014Z",
+        "holding_id": "0f2b1664-4f3d-444d-9e42-4ffaf46cbda9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69ec768f-16ec-4cc3-96ba-1ba1ee8ae373",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-17T22:31:06.216Z",
+        "transaction_price": 32365,
+        "quantity": 72586,
+        "created_at": "2023-08-17T19:25:20.742Z",
+        "updated_at": "2023-08-17T17:55:21.263Z",
+        "holding_id": "0f2b1664-4f3d-444d-9e42-4ffaf46cbda9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "f84321c8-c3b2-4959-b43e-090bb30e9ab9",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-17T11:59:57.844Z",
+        "end_date": "2023-08-17T06:48:07.331Z",
+        "created_at": "2023-08-17T10:18:25.298Z",
+        "updated_at": "2023-08-18T04:54:16.386Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44bbba70-ba35-4082-9e6f-1b596786b204",
+        "role": "Superuser",
+        "status": "Inactive",
+        "start_date": "2023-08-17T16:29:28.641Z",
+        "end_date": "2023-08-17T08:50:39.333Z",
+        "created_at": "2023-08-17T10:17:21.470Z",
+        "updated_at": "2023-08-17T16:08:08.599Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "513cde18-34d1-4d45-b298-c86d18598293",
+        "role": "Manager",
+        "status": "Pending",
+        "start_date": "2023-08-18T05:23:14.253Z",
+        "end_date": "2023-08-17T08:26:43.227Z",
+        "created_at": "2023-08-17T17:12:18.583Z",
+        "updated_at": "2023-08-17T16:53:20.346Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39f2788b-ff52-4d86-ada6-97bb39c8a25b",
+        "role": "Supervisor",
+        "status": "Blocked",
+        "start_date": "2023-08-18T05:48:19.354Z",
+        "end_date": "2023-08-18T04:38:40.076Z",
+        "created_at": "2023-08-17T07:39:57.830Z",
+        "updated_at": "2023-08-17T08:19:55.871Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30a327b2-c25e-4344-a324-27a7eec2804d",
+        "role": "Analyst",
+        "status": "Suspended",
+        "start_date": "2023-08-17T15:59:19.404Z",
+        "end_date": "2023-08-18T05:27:48.600Z",
+        "created_at": "2023-08-17T19:06:14.705Z",
+        "updated_at": "2023-08-17T06:38:48.901Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d9a6b892-c4d2-4815-9aaf-fb3ee359b3d3",
+        "email": "Hyman.Hirthe38@gmail.com",
+        "firstName": "Chester",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1029.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0676d42-a6a0-49fc-a165-1e8335544732",
+        "email": "Richmond.Cremin19@gmail.com",
+        "firstName": "Chesley",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/743.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed0c8213-41f8-40db-953e-15c8bb79e676",
+        "email": "Ahmad_Bradtke19@yahoo.com",
+        "firstName": "Myra",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/272.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24052d66-3bd2-4665-853c-4f55c8fdd0f9",
+        "email": "Kevon.Gleason9@gmail.com",
+        "firstName": "Samara",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/653.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "750fb3d1-5400-41c8-93e6-7510f4016f5f",
+        "email": "Thurman55@gmail.com",
+        "firstName": "Celia",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74898724",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "035ee2d0-2d62-4fe4-902f-010ec34fee4a",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 48248,
+        "quantity": 88699,
+        "created_at": "2023-08-17T09:40:13.837Z",
+        "updated_at": "2023-08-17T11:21:54.050Z"
+      },
+      {
+        "id": "49e6ee43-1084-462f-9154-6b4fcef153d2",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NYSE",
+        "price": 38068,
+        "quantity": 51024,
+        "created_at": "2023-08-17T10:39:49.884Z",
+        "updated_at": "2023-08-17T19:55:59.626Z"
+      },
+      {
+        "id": "397466fe-3188-4087-a703-eb0216752a0e",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "NASDAQ",
+        "price": 43320,
+        "quantity": 72719,
+        "created_at": "2023-08-17T16:36:37.508Z",
+        "updated_at": "2023-08-17T19:20:01.591Z"
+      },
+      {
+        "id": "b1639fbf-2a9b-4c69-9798-64d4bcefcd0b",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "NASDAQ",
+        "price": 94935,
+        "quantity": 98667,
+        "created_at": "2023-08-17T15:22:13.714Z",
+        "updated_at": "2023-08-18T05:07:29.279Z"
+      },
+      {
+        "id": "687f50b0-d3d5-4a1b-821e-61411e5686b6",
+        "name": "Facebook Inc.",
+        "ticker_symbol": "FB",
+        "market": "NASDAQ",
+        "price": 29512,
+        "quantity": 71667,
+        "created_at": "2023-08-18T03:29:22.475Z",
+        "updated_at": "2023-08-17T19:01:46.269Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "1f1354ab-a220-4f98-a36c-97943e99a51c",
+        "purchase_price": 42173,
+        "purchase_date": "2023-08-17T20:51:46.012Z",
+        "quantity": 41405,
+        "created_at": "2023-08-17T06:45:18.380Z",
+        "updated_at": "2023-08-17T09:03:29.582Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "b1639fbf-2a9b-4c69-9798-64d4bcefcd0b"
+      },
+      {
+        "id": "42f22a65-5ad3-4335-90e3-24f5403ba90e",
+        "purchase_price": 91184,
+        "purchase_date": "2023-08-17T20:00:31.702Z",
+        "quantity": 59676,
+        "created_at": "2023-08-17T16:37:22.949Z",
+        "updated_at": "2023-08-17T20:08:42.656Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "035ee2d0-2d62-4fe4-902f-010ec34fee4a"
+      },
+      {
+        "id": "50e51739-f4e7-4b5b-aa45-2caaea87fc72",
+        "purchase_price": 71767,
+        "purchase_date": "2023-08-17T08:43:38.409Z",
+        "quantity": 63152,
+        "created_at": "2023-08-17T10:38:49.921Z",
+        "updated_at": "2023-08-17T06:06:19.748Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "49e6ee43-1084-462f-9154-6b4fcef153d2"
+      },
+      {
+        "id": "7d45b25d-2c80-4fab-b03d-3dfdddc0c8f4",
+        "purchase_price": 86768,
+        "purchase_date": "2023-08-17T19:36:47.779Z",
+        "quantity": 51378,
+        "created_at": "2023-08-18T04:06:56.075Z",
+        "updated_at": "2023-08-17T18:54:40.958Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "b1639fbf-2a9b-4c69-9798-64d4bcefcd0b"
+      },
+      {
+        "id": "6d240e69-99a9-43e4-b37c-acb77de5e35d",
+        "purchase_price": 42779,
+        "purchase_date": "2023-08-17T08:24:14.676Z",
+        "quantity": 55059,
+        "created_at": "2023-08-17T12:30:17.832Z",
+        "updated_at": "2023-08-18T03:14:21.895Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "687f50b0-d3d5-4a1b-821e-61411e5686b6"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "eafaf2c5-8806-463c-8574-a3d429a9f992",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T22:21:20.959Z",
+        "transaction_price": 73426,
+        "quantity": 20800,
+        "created_at": "2023-08-17T05:55:28.463Z",
+        "updated_at": "2023-08-17T17:30:50.081Z",
+        "holding_id": "7d45b25d-2c80-4fab-b03d-3dfdddc0c8f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc297dcd-48f8-4d91-9b2f-5b6b3edceb20",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-17T09:35:44.939Z",
+        "transaction_price": 60011,
+        "quantity": 29130,
+        "created_at": "2023-08-17T14:22:36.423Z",
+        "updated_at": "2023-08-18T04:12:18.360Z",
+        "holding_id": "50e51739-f4e7-4b5b-aa45-2caaea87fc72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efef3c8f-0a54-4193-bafc-bc98327731c8",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-17T08:24:14.640Z",
+        "transaction_price": 33048,
+        "quantity": 32012,
+        "created_at": "2023-08-17T11:00:09.497Z",
+        "updated_at": "2023-08-17T14:31:33.061Z",
+        "holding_id": "50e51739-f4e7-4b5b-aa45-2caaea87fc72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e79b989-4be6-43b0-84cd-3fe9f96106fa",
+        "transaction_type": "Exchange",
+        "transaction_date": "2023-08-17T22:00:01.080Z",
+        "transaction_price": 20940,
+        "quantity": 81148,
+        "created_at": "2023-08-18T05:00:55.335Z",
+        "updated_at": "2023-08-17T20:18:36.308Z",
+        "holding_id": "7d45b25d-2c80-4fab-b03d-3dfdddc0c8f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ae1a7cd-3131-486b-a068-f5f9b0717f50",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-17T11:23:39.746Z",
+        "transaction_price": 87202,
+        "quantity": 67605,
+        "created_at": "2023-08-18T00:16:53.231Z",
+        "updated_at": "2023-08-18T03:09:23.161Z",
+        "holding_id": "6d240e69-99a9-43e4-b37c-acb77de5e35d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "127cc1de-9ab3-4d62-8b64-f2ee1d289ce5",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-17T20:28:03.623Z",
+        "end_date": "2023-08-18T03:28:34.438Z",
+        "created_at": "2023-08-17T08:18:47.805Z",
+        "updated_at": "2023-08-17T18:49:44.933Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2ecf39d-81ea-40cc-a6be-7946581f7aab",
+        "role": "Superuser",
+        "status": "Inactive",
+        "start_date": "2023-08-18T04:01:09.714Z",
+        "end_date": "2023-08-17T10:30:20.954Z",
+        "created_at": "2023-08-17T12:07:19.260Z",
+        "updated_at": "2023-08-17T19:39:15.103Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b335b2df-7650-4033-937c-36811718ae18",
+        "role": "Manager",
+        "status": "Pending",
+        "start_date": "2023-08-17T15:41:00.824Z",
+        "end_date": "2023-08-17T17:54:29.748Z",
+        "created_at": "2023-08-17T10:07:54.559Z",
+        "updated_at": "2023-08-17T14:56:17.774Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5fec343-9c2d-48a0-8d69-ddd35a28fabe",
+        "role": "Supervisor",
+        "status": "Suspended",
+        "start_date": "2023-08-18T04:07:43.093Z",
+        "end_date": "2023-08-17T12:35:49.592Z",
+        "created_at": "2023-08-17T06:58:24.679Z",
+        "updated_at": "2023-08-17T16:43:01.732Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73f1e3d3-9cbc-48cd-91d9-b32764e271fd",
+        "role": "Coordinator",
+        "status": "Blocked",
+        "start_date": "2023-08-17T17:00:51.913Z",
+        "end_date": "2023-08-17T14:26:55.179Z",
+        "created_at": "2023-08-17T14:34:31.707Z",
+        "updated_at": "2023-08-18T02:36:48.027Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6e67d921-693d-495f-a301-7d17c6a17bba",
+        "email": "Felicia86@gmail.com",
+        "firstName": "Gilda",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1054.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9f76d8b6-4712-4e56-a050-8c6a59b3df94",
+        "email": "Glen.Schaden85@hotmail.com",
+        "firstName": "Werner",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66951692",
+        "tenantId": null
+      },
+      {
+        "reference": "135b0741-8a3f-46fc-9425-62e2ad3624f7",
+        "email": "Kailyn_Blanda@yahoo.com",
+        "firstName": "Solon",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/577.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4923a65-6f8a-43b0-867e-508b3841c82a",
+        "email": "Adalberto26@yahoo.com",
+        "firstName": "Alfreda",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5264192d-977b-4f0d-b9ab-75a9018aebdf",
+        "email": "Philip_Kuhn@gmail.com",
+        "firstName": "Clyde",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78716428",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "d1d2a5d0-bd21-475d-9af6-64110cbb57b0",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 56957,
+        "quantity": 31535,
+        "created_at": "2023-08-17T23:54:46.972Z",
+        "updated_at": "2023-08-17T22:03:35.411Z"
+      },
+      {
+        "id": "9ef3aa21-0df8-4caa-92a9-4663e5e6b92d",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NYSE",
+        "price": 74394,
+        "quantity": 85451,
+        "created_at": "2023-08-17T06:30:36.973Z",
+        "updated_at": "2023-08-17T14:34:20.088Z"
+      },
+      {
+        "id": "8f605dc8-7863-417b-9ae0-e50cb311e97d",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "LSE",
+        "price": 97407,
+        "quantity": 61857,
+        "created_at": "2023-08-17T11:39:33.653Z",
+        "updated_at": "2023-08-18T01:27:36.073Z"
+      },
+      {
+        "id": "2f9a6b48-06c6-4a9e-b948-591558db6399",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "TSE",
+        "price": 20697,
+        "quantity": 94266,
+        "created_at": "2023-08-17T20:55:02.450Z",
+        "updated_at": "2023-08-18T05:11:28.261Z"
+      },
+      {
+        "id": "0d2a8da7-8319-4718-8998-cff3d7652035",
+        "name": "Facebook Inc.",
+        "ticker_symbol": "FB",
+        "market": "HKEX",
+        "price": 18802,
+        "quantity": 63788,
+        "created_at": "2023-08-17T23:48:02.716Z",
+        "updated_at": "2023-08-17T10:03:57.641Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "d4799ee0-4fb6-4dad-be08-ea6f99320463",
+        "purchase_price": 89867,
+        "purchase_date": "2023-08-17T06:56:18.578Z",
+        "quantity": 50154,
+        "created_at": "2023-08-17T14:37:55.121Z",
+        "updated_at": "2023-08-17T12:33:53.687Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "d1d2a5d0-bd21-475d-9af6-64110cbb57b0"
+      },
+      {
+        "id": "c0170fd6-a701-49e9-936b-f50b259bcc33",
+        "purchase_price": 36338,
+        "purchase_date": "2023-08-17T12:38:37.575Z",
+        "quantity": 15459,
+        "created_at": "2023-08-17T13:41:17.688Z",
+        "updated_at": "2023-08-17T10:39:15.819Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "0d2a8da7-8319-4718-8998-cff3d7652035"
+      },
+      {
+        "id": "f2e3a07d-007e-40a2-b5db-af7b214d2519",
+        "purchase_price": 1892,
+        "purchase_date": "2023-08-17T09:17:34.499Z",
+        "quantity": 40438,
+        "created_at": "2023-08-18T04:51:20.356Z",
+        "updated_at": "2023-08-18T05:18:33.966Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "9ef3aa21-0df8-4caa-92a9-4663e5e6b92d"
+      },
+      {
+        "id": "81eec297-c169-4871-b74e-178b784ee9a8",
+        "purchase_price": 58454,
+        "purchase_date": "2023-08-18T02:03:47.494Z",
+        "quantity": 61552,
+        "created_at": "2023-08-17T13:11:14.567Z",
+        "updated_at": "2023-08-17T12:43:06.043Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "d1d2a5d0-bd21-475d-9af6-64110cbb57b0"
+      },
+      {
+        "id": "795b4704-abe5-4855-9e66-023029ca63ab",
+        "purchase_price": 43581,
+        "purchase_date": "2023-08-17T21:38:23.237Z",
+        "quantity": 1989,
+        "created_at": "2023-08-18T02:17:17.585Z",
+        "updated_at": "2023-08-17T22:38:44.201Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "9ef3aa21-0df8-4caa-92a9-4663e5e6b92d"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "ca54a9c6-3c20-420f-9c40-2f06c2978091",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T16:32:24.517Z",
+        "transaction_price": 23365,
+        "quantity": 47662,
+        "created_at": "2023-08-18T02:43:24.226Z",
+        "updated_at": "2023-08-17T09:52:11.678Z",
+        "holding_id": "c0170fd6-a701-49e9-936b-f50b259bcc33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86d7188a-a826-4d87-8ebb-81df1160924b",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-17T18:13:14.795Z",
+        "transaction_price": 34626,
+        "quantity": 79520,
+        "created_at": "2023-08-17T21:12:24.261Z",
+        "updated_at": "2023-08-17T07:48:10.628Z",
+        "holding_id": "795b4704-abe5-4855-9e66-023029ca63ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ef604ff-bf5a-496b-a7b1-c03b7f593063",
+        "transaction_type": "Exchange",
+        "transaction_date": "2023-08-17T07:30:27.368Z",
+        "transaction_price": 80278,
+        "quantity": 32151,
+        "created_at": "2023-08-17T12:55:48.075Z",
+        "updated_at": "2023-08-18T03:38:11.213Z",
+        "holding_id": "c0170fd6-a701-49e9-936b-f50b259bcc33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e68bee8d-3994-4959-a31e-7c5fe0811b13",
+        "transaction_type": "Invest",
+        "transaction_date": "2023-08-17T09:05:49.204Z",
+        "transaction_price": 67969,
+        "quantity": 94393,
+        "created_at": "2023-08-17T17:03:43.537Z",
+        "updated_at": "2023-08-18T05:18:33.791Z",
+        "holding_id": "c0170fd6-a701-49e9-936b-f50b259bcc33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77f064bf-25f9-4b63-8aee-5e612cee5874",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-17T09:41:09.986Z",
+        "transaction_price": 25248,
+        "quantity": 72112,
+        "created_at": "2023-08-18T03:20:23.445Z",
+        "updated_at": "2023-08-17T08:42:51.866Z",
+        "holding_id": "c0170fd6-a701-49e9-936b-f50b259bcc33",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "b9324ddd-ebdb-4874-be11-2909bfddae19",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-17T20:13:00.927Z",
+        "end_date": "2023-08-17T13:05:38.455Z",
+        "created_at": "2023-08-17T06:50:54.071Z",
+        "updated_at": "2023-08-17T16:53:14.673Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f34deab-9c54-43d4-b8d1-1c076ca0ef50",
+        "role": "Superuser",
+        "status": "Inactive",
+        "start_date": "2023-08-18T02:59:15.490Z",
+        "end_date": "2023-08-17T13:24:17.849Z",
+        "created_at": "2023-08-17T21:49:00.555Z",
+        "updated_at": "2023-08-18T00:16:24.320Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a745a34-018f-4da4-86b0-42fd4a34f998",
+        "role": "Manager",
+        "status": "Pending",
+        "start_date": "2023-08-18T03:45:53.753Z",
+        "end_date": "2023-08-17T18:36:18.833Z",
+        "created_at": "2023-08-18T02:24:55.740Z",
+        "updated_at": "2023-08-18T04:04:39.233Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c04d1869-419d-40e8-ad83-17f49fe84579",
+        "role": "Supervisor",
+        "status": "Suspended",
+        "start_date": "2023-08-17T18:37:39.854Z",
+        "end_date": "2023-08-17T20:48:47.303Z",
+        "created_at": "2023-08-17T12:47:02.846Z",
+        "updated_at": "2023-08-17T11:16:40.453Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c936303-b293-4453-8cf2-0038d568569f",
+        "role": "Operator",
+        "status": "Blocked",
+        "start_date": "2023-08-17T21:26:36.815Z",
+        "end_date": "2023-08-17T14:54:07.362Z",
+        "created_at": "2023-08-18T02:36:13.961Z",
+        "updated_at": "2023-08-18T03:52:41.758Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ff929fe3-1d57-4208-9a69-acf633bbb4ef",
+        "email": "Kris.Turner64@yahoo.com",
+        "firstName": "Isabel",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22014716",
+        "tenantId": null
+      },
+      {
+        "reference": "dc5f8230-b652-47d7-9c58-1872783b3274",
+        "email": "Lessie19@gmail.com",
+        "firstName": "Ezekiel",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13548714",
+        "tenantId": null
+      },
+      {
+        "reference": "a3997e51-33a5-474e-b18a-3249c578d22a",
+        "email": "Jerad.Schimmel@hotmail.com",
+        "firstName": "Alvis",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/86.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1dc8c1b6-0f4b-4493-b8e1-967fb1128cc4",
+        "email": "Bryon_Terry@yahoo.com",
+        "firstName": "Monte",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4704898",
+        "tenantId": null
+      },
+      {
+        "reference": "5ecda5ad-f1df-4b9d-a9a0-3f3eff204eff",
+        "email": "Lloyd37@yahoo.com",
+        "firstName": "Flavie",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1246.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "e9d5cb47-886f-41d7-96aa-011496bb1768",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 83522,
+        "quantity": 4670,
+        "created_at": "2023-08-17T21:56:27.845Z",
+        "updated_at": "2023-08-17T15:11:07.143Z"
+      },
+      {
+        "id": "009c3f0a-6b37-4d55-b18c-a01faa1dba19",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NYSE",
+        "price": 24821,
+        "quantity": 1203,
+        "created_at": "2023-08-18T03:30:55.561Z",
+        "updated_at": "2023-08-17T14:52:29.010Z"
+      },
+      {
+        "id": "ec27293e-94a7-4eef-ac9c-ace6a57b498a",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "London Stock Exchange",
+        "price": 23336,
+        "quantity": 65080,
+        "created_at": "2023-08-18T04:34:06.347Z",
+        "updated_at": "2023-08-17T10:52:24.074Z"
+      },
+      {
+        "id": "8ed5a4ac-e4aa-427a-a401-7336b2b8632f",
+        "name": "Alphabet Inc.",
+        "ticker_symbol": "GOOGL",
+        "market": "Tokyo Stock Exchange",
+        "price": 77385,
+        "quantity": 32684,
+        "created_at": "2023-08-17T20:03:06.140Z",
+        "updated_at": "2023-08-17T08:45:33.245Z"
+      },
+      {
+        "id": "39f66c97-edbe-4349-8e7d-8eb75723d825",
+        "name": "Facebook Inc.",
+        "ticker_symbol": "FB",
+        "market": "Hong Kong Stock Exchange",
+        "price": 15357,
+        "quantity": 40860,
+        "created_at": "2023-08-17T18:27:30.491Z",
+        "updated_at": "2023-08-17T20:10:00.397Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "5fbab045-c759-44ef-92c5-8e5eabe2db6d",
+        "purchase_price": 53374,
+        "purchase_date": "2023-08-17T23:15:45.685Z",
+        "quantity": 22895,
+        "created_at": "2023-08-18T02:33:05.946Z",
+        "updated_at": "2023-08-17T15:32:34.595Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "ec27293e-94a7-4eef-ac9c-ace6a57b498a"
+      },
+      {
+        "id": "102d6f11-a127-4609-902e-ad605fef2d24",
+        "purchase_price": 6864,
+        "purchase_date": "2023-08-17T09:53:33.023Z",
+        "quantity": 8824,
+        "created_at": "2023-08-17T10:30:38.814Z",
+        "updated_at": "2023-08-17T13:28:01.293Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "e9d5cb47-886f-41d7-96aa-011496bb1768"
+      },
+      {
+        "id": "9d794ee1-46e5-49c9-bd3f-8ecd1443444f",
+        "purchase_price": 26349,
+        "purchase_date": "2023-08-17T08:01:45.496Z",
+        "quantity": 36979,
+        "created_at": "2023-08-18T03:54:31.646Z",
+        "updated_at": "2023-08-17T19:20:06.020Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "39f66c97-edbe-4349-8e7d-8eb75723d825"
+      },
+      {
+        "id": "b91ee688-f124-4799-9370-e7a92332f714",
+        "purchase_price": 48275,
+        "purchase_date": "2023-08-17T13:37:14.865Z",
+        "quantity": 20130,
+        "created_at": "2023-08-17T14:22:54.708Z",
+        "updated_at": "2023-08-18T03:51:24.573Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "8ed5a4ac-e4aa-427a-a401-7336b2b8632f"
+      },
+      {
+        "id": "d6332795-53ed-4a66-8ec0-08e708d2d3ef",
+        "purchase_price": 88764,
+        "purchase_date": "2023-08-17T20:41:59.744Z",
+        "quantity": 41897,
+        "created_at": "2023-08-17T23:03:05.189Z",
+        "updated_at": "2023-08-18T05:06:00.899Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "009c3f0a-6b37-4d55-b18c-a01faa1dba19"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "5ff468c5-9783-4fa2-941e-a94239439b08",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-18T00:25:43.515Z",
+        "transaction_price": 96606,
+        "quantity": 32385,
+        "created_at": "2023-08-17T22:54:18.836Z",
+        "updated_at": "2023-08-17T15:27:21.639Z",
+        "holding_id": "5fbab045-c759-44ef-92c5-8e5eabe2db6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec00318a-b231-44ec-b45e-5cf846f995eb",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-17T08:28:05.283Z",
+        "transaction_price": 49296,
+        "quantity": 65800,
+        "created_at": "2023-08-17T09:14:45.474Z",
+        "updated_at": "2023-08-17T16:49:25.599Z",
+        "holding_id": "9d794ee1-46e5-49c9-bd3f-8ecd1443444f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eae076be-5153-4d65-bcca-67eadd1adeed",
+        "transaction_type": "Deposit",
+        "transaction_date": "2023-08-17T09:40:24.591Z",
+        "transaction_price": 62166,
+        "quantity": 7850,
+        "created_at": "2023-08-18T00:06:35.836Z",
+        "updated_at": "2023-08-17T20:13:17.925Z",
+        "holding_id": "5fbab045-c759-44ef-92c5-8e5eabe2db6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "500f16e3-a4d6-433f-83ff-d35385f3478b",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-17T10:44:41.911Z",
+        "transaction_price": 68864,
+        "quantity": 61388,
+        "created_at": "2023-08-17T11:57:17.257Z",
+        "updated_at": "2023-08-18T01:45:32.170Z",
+        "holding_id": "d6332795-53ed-4a66-8ec0-08e708d2d3ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f5afd0d-4bc0-45f6-bd7f-8d9d85433a57",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-17T07:27:34.531Z",
+        "transaction_price": 13680,
+        "quantity": 83201,
+        "created_at": "2023-08-17T15:45:25.707Z",
+        "updated_at": "2023-08-18T00:09:27.957Z",
+        "holding_id": "5fbab045-c759-44ef-92c5-8e5eabe2db6d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "fff7cd85-e0b2-4425-a02d-55e7ff2553f6",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-17T08:54:11.417Z",
+        "end_date": "2023-08-18T04:35:24.402Z",
+        "created_at": "2023-08-17T23:29:04.066Z",
+        "updated_at": "2023-08-17T21:43:12.038Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56b3cbed-2bde-4fd2-b40b-292f13ccfc6b",
+        "role": "Manager",
+        "status": "Inactive",
+        "start_date": "2023-08-18T01:29:15.748Z",
+        "end_date": "2023-08-18T02:45:29.141Z",
+        "created_at": "2023-08-17T07:05:10.441Z",
+        "updated_at": "2023-08-17T12:57:23.368Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91d8ad3a-9990-4cfe-9435-aa920652c627",
+        "role": "Supervisor",
+        "status": "Pending",
+        "start_date": "2023-08-17T12:14:06.687Z",
+        "end_date": "2023-08-17T23:50:13.401Z",
+        "created_at": "2023-08-18T01:21:04.404Z",
+        "updated_at": "2023-08-17T17:01:11.935Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9387c2a-ca66-4817-9d97-0c370b4b988f",
+        "role": "Analyst",
+        "status": "Suspended",
+        "start_date": "2023-08-17T14:26:06.726Z",
+        "end_date": "2023-08-17T23:11:18.857Z",
+        "created_at": "2023-08-17T14:22:00.019Z",
+        "updated_at": "2023-08-17T22:12:05.323Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cc0624e-226f-4255-ad13-7bc0390427b0",
+        "role": "Coordinator",
+        "status": "Blocked",
+        "start_date": "2023-08-17T13:19:51.015Z",
+        "end_date": "2023-08-17T08:57:08.922Z",
+        "created_at": "2023-08-17T22:33:40.767Z",
+        "updated_at": "2023-08-18T00:53:40.284Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "78574fea-10d2-481f-87f6-42a22b0c39b9",
+        "email": "Cierra.Thiel12@hotmail.com",
+        "firstName": "Domenick",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1028.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "083a0599-6788-4e16-8942-fb9d68ba7097",
+        "email": "Josue99@yahoo.com",
+        "firstName": "Thomas",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13950836",
+        "tenantId": null
+      },
+      {
+        "reference": "39e7ab3e-b0bd-483e-9add-529557324662",
+        "email": "Trevion_Leuschke-Hirthe@yahoo.com",
+        "firstName": "Lonny",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38852906",
+        "tenantId": null
+      },
+      {
+        "reference": "9473f56e-832d-4829-9dab-933e5d6bc14a",
+        "email": "Hillary14@yahoo.com",
+        "firstName": "Dorcas",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9278331",
+        "tenantId": null
+      },
+      {
+        "reference": "f791783f-c6a8-4f46-a348-bdf73a0e78fc",
+        "email": "Ari_Doyle11@yahoo.com",
+        "firstName": "Travon",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/737.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "89d2d9a2-3c9c-4c71-aa17-162ead608f95",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 89992,
+        "quantity": 42351,
+        "created_at": "2023-08-17T16:16:41.203Z",
+        "updated_at": "2023-08-17T19:03:48.747Z"
+      },
+      {
+        "id": "55a617a9-2f6b-417b-8fd4-23f1b9137ede",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NYSE",
+        "price": 44318,
+        "quantity": 30579,
+        "created_at": "2023-08-18T04:20:25.723Z",
+        "updated_at": "2023-08-17T15:42:12.438Z"
+      },
+      {
+        "id": "29ae81b7-2627-460d-a8b9-ad0240eb098f",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "LSE",
+        "price": 97588,
+        "quantity": 67959,
+        "created_at": "2023-08-17T17:34:40.364Z",
+        "updated_at": "2023-08-18T00:58:08.214Z"
+      },
+      {
+        "id": "811a0b5f-937c-4ff4-b70f-8490284aff17",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "TSE",
+        "price": 11932,
+        "quantity": 24202,
+        "created_at": "2023-08-18T04:07:07.520Z",
+        "updated_at": "2023-08-17T08:23:19.497Z"
+      },
+      {
+        "id": "facc9e5c-ace7-4ed7-b8b4-0407ea4cb949",
+        "name": "Facebook Inc.",
+        "ticker_symbol": "FB",
+        "market": "HKEX",
+        "price": 6978,
+        "quantity": 78689,
+        "created_at": "2023-08-17T12:10:57.665Z",
+        "updated_at": "2023-08-18T05:11:51.513Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "c0e46fc0-e5ed-4af2-95c1-af7c8acffe36",
+        "purchase_price": 54144,
+        "purchase_date": "2023-08-18T00:41:03.166Z",
+        "quantity": 73031,
+        "created_at": "2023-08-17T21:56:31.437Z",
+        "updated_at": "2023-08-17T22:40:35.930Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "55a617a9-2f6b-417b-8fd4-23f1b9137ede"
+      },
+      {
+        "id": "c0b9f066-731b-4db0-955f-aa3538823120",
+        "purchase_price": 87663,
+        "purchase_date": "2023-08-18T04:19:15.443Z",
+        "quantity": 67842,
+        "created_at": "2023-08-18T01:09:22.500Z",
+        "updated_at": "2023-08-18T05:01:49.338Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "29ae81b7-2627-460d-a8b9-ad0240eb098f"
+      },
+      {
+        "id": "ee53c682-5cc6-45a9-8c4c-2c98187b87be",
+        "purchase_price": 19964,
+        "purchase_date": "2023-08-18T01:00:19.983Z",
+        "quantity": 11677,
+        "created_at": "2023-08-17T06:25:12.175Z",
+        "updated_at": "2023-08-17T18:51:36.826Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "89d2d9a2-3c9c-4c71-aa17-162ead608f95"
+      },
+      {
+        "id": "0d7ab6ad-9675-4f72-b160-f11f96332ff0",
+        "purchase_price": 17816,
+        "purchase_date": "2023-08-17T15:13:10.990Z",
+        "quantity": 73019,
+        "created_at": "2023-08-17T18:40:57.569Z",
+        "updated_at": "2023-08-17T19:05:09.029Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "89d2d9a2-3c9c-4c71-aa17-162ead608f95"
+      },
+      {
+        "id": "8484ace3-5909-4242-9b11-da39b4e1fc1e",
+        "purchase_price": 51761,
+        "purchase_date": "2023-08-18T00:51:01.410Z",
+        "quantity": 75263,
+        "created_at": "2023-08-17T13:08:50.609Z",
+        "updated_at": "2023-08-18T00:26:24.061Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "55a617a9-2f6b-417b-8fd4-23f1b9137ede"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "a5a6b4c5-a123-4a5f-a526-b02efbdb026f",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T12:55:12.248Z",
+        "transaction_price": 74235,
+        "quantity": 77009,
+        "created_at": "2023-08-17T19:55:09.802Z",
+        "updated_at": "2023-08-17T15:27:15.223Z",
+        "holding_id": "c0e46fc0-e5ed-4af2-95c1-af7c8acffe36",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1e70dd2-dd50-4b74-bc0b-35e2d3813040",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-18T03:53:49.119Z",
+        "transaction_price": 20522,
+        "quantity": 70744,
+        "created_at": "2023-08-17T16:32:20.170Z",
+        "updated_at": "2023-08-17T11:41:30.458Z",
+        "holding_id": "8484ace3-5909-4242-9b11-da39b4e1fc1e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53026790-1167-40fe-8c4b-c0f451026eec",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-18T00:15:25.932Z",
+        "transaction_price": 92756,
+        "quantity": 85015,
+        "created_at": "2023-08-17T08:34:23.175Z",
+        "updated_at": "2023-08-18T04:07:06.305Z",
+        "holding_id": "8484ace3-5909-4242-9b11-da39b4e1fc1e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b593e631-6d63-4efe-a488-bc71d0b9fc8d",
+        "transaction_type": "Deposit",
+        "transaction_date": "2023-08-17T07:31:31.326Z",
+        "transaction_price": 23205,
+        "quantity": 36605,
+        "created_at": "2023-08-17T06:21:06.926Z",
+        "updated_at": "2023-08-17T14:04:33.101Z",
+        "holding_id": "0d7ab6ad-9675-4f72-b160-f11f96332ff0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "819e8691-3789-478c-9c22-fead2e0f0c8c",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-18T04:52:22.904Z",
+        "transaction_price": 34009,
+        "quantity": 9532,
+        "created_at": "2023-08-17T10:14:15.036Z",
+        "updated_at": "2023-08-17T06:33:42.461Z",
+        "holding_id": "c0e46fc0-e5ed-4af2-95c1-af7c8acffe36",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "50d225e2-cc58-49d5-a8fd-615c60708cfb",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-18T00:49:14.431Z",
+        "end_date": "2023-08-18T01:03:39.396Z",
+        "created_at": "2023-08-17T19:57:50.352Z",
+        "updated_at": "2023-08-17T18:47:49.912Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ae43f91-a716-4e6d-96af-7f03f25705b5",
+        "role": "Superuser",
+        "status": "Inactive",
+        "start_date": "2023-08-17T06:58:54.431Z",
+        "end_date": "2023-08-17T15:24:30.521Z",
+        "created_at": "2023-08-18T01:52:33.937Z",
+        "updated_at": "2023-08-17T14:48:31.411Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a24be68-6ec4-4fd4-8f3d-b024610532cd",
+        "role": "Manager",
+        "status": "Pending",
+        "start_date": "2023-08-17T23:44:36.790Z",
+        "end_date": "2023-08-17T19:26:44.801Z",
+        "created_at": "2023-08-17T19:53:35.701Z",
+        "updated_at": "2023-08-18T03:31:43.349Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71bba41d-7b22-43c4-9e88-f2169ef05604",
+        "role": "Supervisor",
+        "status": "Suspended",
+        "start_date": "2023-08-17T18:50:08.941Z",
+        "end_date": "2023-08-17T08:53:17.512Z",
+        "created_at": "2023-08-18T04:25:22.647Z",
+        "updated_at": "2023-08-18T03:27:00.930Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6841d358-4bd7-49e7-9928-34802192f8e7",
+        "role": "Analyst",
+        "status": "Blocked",
+        "start_date": "2023-08-17T13:07:31.820Z",
+        "end_date": "2023-08-18T05:46:05.058Z",
+        "created_at": "2023-08-17T09:34:21.243Z",
+        "updated_at": "2023-08-18T01:41:45.392Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "31d259fc-8ce8-4532-94ac-2c92896f8422",
+        "email": "Rod_Ondricka84@hotmail.com",
+        "firstName": "Cornelius",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1051.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8a0285c1-4758-4e27-a995-8f29d8ad5c1d",
+        "email": "Earnest_Dooley@hotmail.com",
+        "firstName": "Aliza",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1003.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8c1a3814-597a-4f09-a9ba-e08ff9fbd6cb",
+        "email": "Uriel82@yahoo.com",
+        "firstName": "Donald",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63495024",
+        "tenantId": null
+      },
+      {
+        "reference": "bbd357e9-0c8f-4e1d-b5a8-74be6f7b28e1",
+        "email": "Delaney9@yahoo.com",
+        "firstName": "Felix",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53684716",
+        "tenantId": null
+      },
+      {
+        "reference": "b56031e4-d228-46c4-95db-59bf2a2782ea",
+        "email": "Peggie4@gmail.com",
+        "firstName": "Zackary",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91895786",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "3b1c75ac-cb86-49fa-a1e9-372f44eebcd3",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 19916,
+        "quantity": 23848,
+        "created_at": "2023-08-17T22:26:58.415Z",
+        "updated_at": "2023-08-17T06:00:28.702Z"
+      },
+      {
+        "id": "8c22005f-d489-43b4-9ba1-9d96aeb0d8fd",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NASDAQ",
+        "price": 63164,
+        "quantity": 33869,
+        "created_at": "2023-08-17T15:46:04.194Z",
+        "updated_at": "2023-08-17T06:45:51.176Z"
+      },
+      {
+        "id": "0b37f1e9-4658-4a68-8688-05dee13f5a8a",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "NASDAQ",
+        "price": 31957,
+        "quantity": 25933,
+        "created_at": "2023-08-17T18:46:41.671Z",
+        "updated_at": "2023-08-18T03:36:56.401Z"
+      },
+      {
+        "id": "8412969a-fe4d-4d25-9b0e-681ed95a5e9a",
+        "name": "Tesla Inc.",
+        "ticker_symbol": "TSLA",
+        "market": "NASDAQ",
+        "price": 3838,
+        "quantity": 90550,
+        "created_at": "2023-08-17T15:12:39.896Z",
+        "updated_at": "2023-08-17T13:22:10.821Z"
+      },
+      {
+        "id": "3171b18a-d9a5-4a2d-a26f-c432384af71f",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "NASDAQ",
+        "price": 18598,
+        "quantity": 89289,
+        "created_at": "2023-08-18T02:05:53.359Z",
+        "updated_at": "2023-08-17T08:43:00.447Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "866cef97-3f70-4d59-aaf1-3a4c7ce79a27",
+        "purchase_price": 39161,
+        "purchase_date": "2023-08-17T07:38:12.386Z",
+        "quantity": 67600,
+        "created_at": "2023-08-17T17:08:33.092Z",
+        "updated_at": "2023-08-17T16:02:51.179Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "3171b18a-d9a5-4a2d-a26f-c432384af71f"
+      },
+      {
+        "id": "1469384b-dfd5-4c9d-8742-fc97c84dcbeb",
+        "purchase_price": 73763,
+        "purchase_date": "2023-08-17T07:09:53.692Z",
+        "quantity": 48633,
+        "created_at": "2023-08-17T07:22:36.382Z",
+        "updated_at": "2023-08-17T10:06:14.018Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "3b1c75ac-cb86-49fa-a1e9-372f44eebcd3"
+      },
+      {
+        "id": "da6054be-b4cb-46a7-9a56-b0682c04c730",
+        "purchase_price": 14901,
+        "purchase_date": "2023-08-17T17:44:23.842Z",
+        "quantity": 72434,
+        "created_at": "2023-08-18T00:01:42.047Z",
+        "updated_at": "2023-08-17T21:58:07.746Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "8412969a-fe4d-4d25-9b0e-681ed95a5e9a"
+      },
+      {
+        "id": "17e4e120-8336-45f6-9b1e-5b9cf5035d02",
+        "purchase_price": 88078,
+        "purchase_date": "2023-08-17T10:34:56.309Z",
+        "quantity": 14117,
+        "created_at": "2023-08-17T17:31:10.122Z",
+        "updated_at": "2023-08-17T09:50:04.157Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "3171b18a-d9a5-4a2d-a26f-c432384af71f"
+      },
+      {
+        "id": "a2b8707f-1ea4-41df-916b-6cfac6229460",
+        "purchase_price": 98668,
+        "purchase_date": "2023-08-17T21:07:30.026Z",
+        "quantity": 63991,
+        "created_at": "2023-08-17T21:28:59.948Z",
+        "updated_at": "2023-08-17T13:33:45.936Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "8412969a-fe4d-4d25-9b0e-681ed95a5e9a"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "de8fbc66-92a2-4b33-a1d0-f07768f7c7e8",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T08:09:28.381Z",
+        "transaction_price": 63585,
+        "quantity": 64634,
+        "created_at": "2023-08-17T13:06:24.593Z",
+        "updated_at": "2023-08-17T09:31:39.784Z",
+        "holding_id": "a2b8707f-1ea4-41df-916b-6cfac6229460",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "468e0775-efac-41c4-85d4-33b5c88881cd",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-18T04:04:20.266Z",
+        "transaction_price": 73656,
+        "quantity": 16594,
+        "created_at": "2023-08-17T18:35:50.080Z",
+        "updated_at": "2023-08-17T14:19:20.762Z",
+        "holding_id": "866cef97-3f70-4d59-aaf1-3a4c7ce79a27",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec9153b1-1d41-45c3-8d1c-c2743fedc5c2",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-18T05:15:35.121Z",
+        "transaction_price": 88135,
+        "quantity": 51856,
+        "created_at": "2023-08-17T22:00:01.524Z",
+        "updated_at": "2023-08-18T02:50:25.987Z",
+        "holding_id": "866cef97-3f70-4d59-aaf1-3a4c7ce79a27",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "470fb68f-4cfd-4b94-b997-46a1e5b58379",
+        "transaction_type": "Deposit",
+        "transaction_date": "2023-08-17T21:41:48.542Z",
+        "transaction_price": 29076,
+        "quantity": 73597,
+        "created_at": "2023-08-17T20:17:20.127Z",
+        "updated_at": "2023-08-17T13:15:45.684Z",
+        "holding_id": "a2b8707f-1ea4-41df-916b-6cfac6229460",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac2a261e-ce07-4cf7-a0da-e23f042e6ebf",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-18T01:37:15.562Z",
+        "transaction_price": 138,
+        "quantity": 7319,
+        "created_at": "2023-08-18T01:58:25.506Z",
+        "updated_at": "2023-08-17T23:24:30.659Z",
+        "holding_id": "a2b8707f-1ea4-41df-916b-6cfac6229460",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "d4edb193-301b-44ae-9184-e8999de02823",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-17T15:22:24.248Z",
+        "end_date": "2023-08-18T03:19:29.637Z",
+        "created_at": "2023-08-17T17:37:18.797Z",
+        "updated_at": "2023-08-17T18:27:42.866Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "012d31d0-fefc-42a4-bc9c-0b2e5bb18f2c",
+        "role": "Superuser",
+        "status": "Inactive",
+        "start_date": "2023-08-18T03:34:02.363Z",
+        "end_date": "2023-08-17T13:22:24.121Z",
+        "created_at": "2023-08-17T12:51:13.524Z",
+        "updated_at": "2023-08-18T04:29:44.258Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6eec9ef9-a58b-4445-a9aa-4cc924add294",
+        "role": "Manager",
+        "status": "Pending",
+        "start_date": "2023-08-17T06:41:28.264Z",
+        "end_date": "2023-08-17T14:31:49.875Z",
+        "created_at": "2023-08-17T20:18:02.533Z",
+        "updated_at": "2023-08-17T06:33:26.976Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db3e14f9-0925-4458-8865-d0575cc997e2",
+        "role": "Supervisor",
+        "status": "Suspended",
+        "start_date": "2023-08-17T12:02:41.300Z",
+        "end_date": "2023-08-18T01:34:57.912Z",
+        "created_at": "2023-08-17T12:37:19.085Z",
+        "updated_at": "2023-08-17T07:30:01.026Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3eb986e-107d-4938-8a6d-b17c34e53cfc",
+        "role": "Operator",
+        "status": "Blocked",
+        "start_date": "2023-08-17T07:29:22.383Z",
+        "end_date": "2023-08-18T02:43:41.622Z",
+        "created_at": "2023-08-17T21:35:53.164Z",
+        "updated_at": "2023-08-17T21:58:56.216Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5a24d4f8-5d1c-45a7-9cf3-53d0efd28342",
+        "email": "Pascale.Blanda@gmail.com",
+        "firstName": "Althea",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44304243",
+        "tenantId": null
+      },
+      {
+        "reference": "88286682-43dc-4cfc-a05f-fbbb86d244d1",
+        "email": "Kay_Predovic72@hotmail.com",
+        "firstName": "Remington",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/439.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d39cc00-59c7-46f0-b995-a09a23ea1748",
+        "email": "Else_Lind28@gmail.com",
+        "firstName": "Wendy",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41140871",
+        "tenantId": null
+      },
+      {
+        "reference": "62c867cc-19ce-4618-a4b0-92d8b5484ce5",
+        "email": "Jayson_Bayer@gmail.com",
+        "firstName": "Brenden",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92381528",
+        "tenantId": null
+      },
+      {
+        "reference": "4d212d65-cd4d-4b38-b9f8-ba832587e677",
+        "email": "Hershel.Windler45@yahoo.com",
+        "firstName": "Charley",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66990244",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "06b7b89b-52d5-4ddc-a143-f33eee707f3a",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 28723,
+        "quantity": 7822,
+        "created_at": "2023-08-17T17:58:06.082Z",
+        "updated_at": "2023-08-18T00:15:04.909Z"
+      },
+      {
+        "id": "90c6fa0e-f0b4-4523-9fd4-aee4c96ad46f",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NYSE",
+        "price": 76638,
+        "quantity": 29866,
+        "created_at": "2023-08-18T05:19:42.855Z",
+        "updated_at": "2023-08-18T02:54:10.382Z"
+      },
+      {
+        "id": "ea966000-2344-4bb8-8e07-81393412a4f6",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "London Stock Exchange",
+        "price": 40665,
+        "quantity": 62044,
+        "created_at": "2023-08-17T21:38:54.848Z",
+        "updated_at": "2023-08-17T17:51:45.466Z"
+      },
+      {
+        "id": "a1b9c1e8-c35e-4457-9284-d2820d9ecf7a",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "Tokyo Stock Exchange",
+        "price": 99538,
+        "quantity": 40840,
+        "created_at": "2023-08-18T03:58:46.901Z",
+        "updated_at": "2023-08-17T21:13:01.547Z"
+      },
+      {
+        "id": "ba521741-f5a4-4e29-b23b-6562319ef7a3",
+        "name": "Facebook Inc.",
+        "ticker_symbol": "FB",
+        "market": "Hong Kong Stock Exchange",
+        "price": 25630,
+        "quantity": 425,
+        "created_at": "2023-08-17T12:23:03.685Z",
+        "updated_at": "2023-08-17T12:54:27.421Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "0cf3ceb0-4a40-4ce9-b0d2-7c6ff92b1c70",
+        "purchase_price": 77651,
+        "purchase_date": "2023-08-17T21:41:40.876Z",
+        "quantity": 47779,
+        "created_at": "2023-08-17T18:03:02.096Z",
+        "updated_at": "2023-08-17T17:09:09.463Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "ea966000-2344-4bb8-8e07-81393412a4f6"
+      },
+      {
+        "id": "2db90ba1-1fe0-473c-8f32-cbbb22c713ae",
+        "purchase_price": 9955,
+        "purchase_date": "2023-08-17T11:20:40.879Z",
+        "quantity": 57320,
+        "created_at": "2023-08-17T07:04:09.149Z",
+        "updated_at": "2023-08-17T19:52:50.699Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "ba521741-f5a4-4e29-b23b-6562319ef7a3"
+      },
+      {
+        "id": "be884059-de00-464a-9407-fc1af864bf73",
+        "purchase_price": 33363,
+        "purchase_date": "2023-08-17T22:12:34.795Z",
+        "quantity": 1599,
+        "created_at": "2023-08-17T23:38:42.121Z",
+        "updated_at": "2023-08-18T03:07:49.495Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "ea966000-2344-4bb8-8e07-81393412a4f6"
+      },
+      {
+        "id": "a80b85ff-9c97-40b9-be12-ded86e24ca85",
+        "purchase_price": 87671,
+        "purchase_date": "2023-08-17T13:07:09.086Z",
+        "quantity": 73379,
+        "created_at": "2023-08-17T11:39:26.851Z",
+        "updated_at": "2023-08-18T00:19:32.349Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "90c6fa0e-f0b4-4523-9fd4-aee4c96ad46f"
+      },
+      {
+        "id": "ef124f7b-2099-4904-a158-63816b5c5705",
+        "purchase_price": 34412,
+        "purchase_date": "2023-08-17T20:49:31.115Z",
+        "quantity": 13954,
+        "created_at": "2023-08-18T03:05:48.955Z",
+        "updated_at": "2023-08-17T12:29:55.468Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "90c6fa0e-f0b4-4523-9fd4-aee4c96ad46f"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "c05599d4-060a-41cf-9775-34712b7c6ebf",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T14:24:51.544Z",
+        "transaction_price": 95370,
+        "quantity": 16853,
+        "created_at": "2023-08-17T21:59:12.226Z",
+        "updated_at": "2023-08-17T19:47:18.434Z",
+        "holding_id": "0cf3ceb0-4a40-4ce9-b0d2-7c6ff92b1c70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fcb2d53-4954-43eb-a80d-f9bf7b675b5c",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-18T04:25:45.656Z",
+        "transaction_price": 85752,
+        "quantity": 73807,
+        "created_at": "2023-08-17T11:14:46.020Z",
+        "updated_at": "2023-08-17T21:48:30.199Z",
+        "holding_id": "a80b85ff-9c97-40b9-be12-ded86e24ca85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd1c5358-ce06-4656-9f70-3c1f7d915328",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-17T07:19:25.461Z",
+        "transaction_price": 61485,
+        "quantity": 32303,
+        "created_at": "2023-08-17T17:04:59.308Z",
+        "updated_at": "2023-08-18T03:36:39.971Z",
+        "holding_id": "a80b85ff-9c97-40b9-be12-ded86e24ca85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffb078c6-72a3-4b49-9f0d-1f815d3ec3c0",
+        "transaction_type": "Deposit",
+        "transaction_date": "2023-08-18T04:14:35.042Z",
+        "transaction_price": 58524,
+        "quantity": 41950,
+        "created_at": "2023-08-17T21:08:05.260Z",
+        "updated_at": "2023-08-17T13:08:10.079Z",
+        "holding_id": "be884059-de00-464a-9407-fc1af864bf73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9354f409-c58d-407b-95ac-a41e2b4780c1",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-17T12:36:11.337Z",
+        "transaction_price": 79469,
+        "quantity": 22736,
+        "created_at": "2023-08-17T15:20:56.586Z",
+        "updated_at": "2023-08-17T20:09:56.485Z",
+        "holding_id": "a80b85ff-9c97-40b9-be12-ded86e24ca85",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "6c0350df-c334-426f-af2f-932281ac0da5",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-17T13:04:07.433Z",
+        "end_date": "2023-08-17T06:33:11.014Z",
+        "created_at": "2023-08-17T16:13:15.229Z",
+        "updated_at": "2023-08-18T04:03:12.473Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5259aaaf-e2fc-4ea2-aeed-7546f8b088c8",
+        "role": "Manager",
+        "status": "Inactive",
+        "start_date": "2023-08-17T13:29:48.290Z",
+        "end_date": "2023-08-17T19:33:36.145Z",
+        "created_at": "2023-08-18T05:45:41.080Z",
+        "updated_at": "2023-08-17T21:30:11.620Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71689767-b1a7-4548-a5e9-a9ddf037bb54",
+        "role": "Supervisor",
+        "status": "Pending",
+        "start_date": "2023-08-17T19:57:44.804Z",
+        "end_date": "2023-08-17T17:57:02.324Z",
+        "created_at": "2023-08-18T00:17:59.008Z",
+        "updated_at": "2023-08-17T11:49:58.474Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23d1402d-5ca3-4a2e-a6ea-9355e7944555",
+        "role": "Coordinator",
+        "status": "Suspended",
+        "start_date": "2023-08-17T11:16:42.989Z",
+        "end_date": "2023-08-18T01:58:22.850Z",
+        "created_at": "2023-08-17T09:11:09.310Z",
+        "updated_at": "2023-08-17T15:43:13.082Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81566a83-ef2f-416e-afcc-4a64b1430e0f",
+        "role": "Analyst",
+        "status": "Blocked",
+        "start_date": "2023-08-17T19:48:11.381Z",
+        "end_date": "2023-08-18T00:05:40.212Z",
+        "created_at": "2023-08-17T08:38:37.541Z",
+        "updated_at": "2023-08-17T08:49:22.837Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8a3183e9-c764-4f85-b553-a2a52e3eff7e",
+        "email": "Fletcher.Ziemann@hotmail.com",
+        "firstName": "Kody",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48293412",
+        "tenantId": null
+      },
+      {
+        "reference": "1b45314a-e36f-4909-8e07-d051ee6629aa",
+        "email": "Margaret.Bauch31@hotmail.com",
+        "firstName": "Sandrine",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44036675",
+        "tenantId": null
+      },
+      {
+        "reference": "472b5bde-725f-4abd-a6e1-2a241a4d907d",
+        "email": "Eusebio.Rohan45@gmail.com",
+        "firstName": "Joany",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16543676",
+        "tenantId": null
+      },
+      {
+        "reference": "a546ca02-1f1f-4ed8-b91b-ff107898c126",
+        "email": "Vernie.Macejkovic@gmail.com",
+        "firstName": "Dora",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/101.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "912a7aa0-0305-4c69-a7a7-e97a55c07237",
+        "email": "Alessia.Morissette97@gmail.com",
+        "firstName": "Jordan",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/67.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "7d4b4f03-b3fc-4422-91d9-d2fffbc0040e",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 21204,
+        "quantity": 66051,
+        "created_at": "2023-08-17T12:36:17.696Z",
+        "updated_at": "2023-08-17T14:29:48.382Z"
+      },
+      {
+        "id": "0e56c659-c04a-4647-b032-fdb33f636050",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NYSE",
+        "price": 8046,
+        "quantity": 68521,
+        "created_at": "2023-08-17T10:59:09.652Z",
+        "updated_at": "2023-08-17T23:50:35.757Z"
+      },
+      {
+        "id": "0a067231-3c86-46e1-90c0-844c2d938872",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "LSE",
+        "price": 78012,
+        "quantity": 24440,
+        "created_at": "2023-08-18T04:20:31.751Z",
+        "updated_at": "2023-08-17T15:43:36.394Z"
+      },
+      {
+        "id": "104668c3-6fd5-421a-8f5d-2a334085e884",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "TSE",
+        "price": 76708,
+        "quantity": 39093,
+        "created_at": "2023-08-18T01:59:52.024Z",
+        "updated_at": "2023-08-18T00:21:44.296Z"
+      },
+      {
+        "id": "b534b1fc-2cde-45c0-80ef-586f44cbd916",
+        "name": "Facebook Inc.",
+        "ticker_symbol": "FB",
+        "market": "HKEX",
+        "price": 61879,
+        "quantity": 10591,
+        "created_at": "2023-08-17T20:29:35.835Z",
+        "updated_at": "2023-08-17T07:24:50.735Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "46784069-1986-44ee-ac4e-c4c15d48f61b",
+        "purchase_price": 82157,
+        "purchase_date": "2023-08-17T21:38:55.372Z",
+        "quantity": 3435,
+        "created_at": "2023-08-17T18:22:17.283Z",
+        "updated_at": "2023-08-17T22:12:34.570Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "0a067231-3c86-46e1-90c0-844c2d938872"
+      },
+      {
+        "id": "c107a042-ae24-45d0-8fe7-2e97d81b6ca5",
+        "purchase_price": 25576,
+        "purchase_date": "2023-08-18T00:52:27.285Z",
+        "quantity": 85388,
+        "created_at": "2023-08-17T20:33:04.299Z",
+        "updated_at": "2023-08-17T12:55:40.256Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "0a067231-3c86-46e1-90c0-844c2d938872"
+      },
+      {
+        "id": "6bf5b5a7-df01-40dd-b230-3319931d423d",
+        "purchase_price": 36114,
+        "purchase_date": "2023-08-18T01:34:12.340Z",
+        "quantity": 99949,
+        "created_at": "2023-08-17T13:23:15.085Z",
+        "updated_at": "2023-08-18T02:41:04.623Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "b534b1fc-2cde-45c0-80ef-586f44cbd916"
+      },
+      {
+        "id": "680caf5a-c30a-427a-b49b-c357ebf678c0",
+        "purchase_price": 25330,
+        "purchase_date": "2023-08-17T21:31:27.637Z",
+        "quantity": 86767,
+        "created_at": "2023-08-17T20:45:24.756Z",
+        "updated_at": "2023-08-18T00:39:59.833Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "0e56c659-c04a-4647-b032-fdb33f636050"
+      },
+      {
+        "id": "b90d5f33-d3cb-4e47-a91c-8f159979a41a",
+        "purchase_price": 97494,
+        "purchase_date": "2023-08-17T19:29:56.069Z",
+        "quantity": 3262,
+        "created_at": "2023-08-17T09:21:01.678Z",
+        "updated_at": "2023-08-17T12:35:17.791Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "0e56c659-c04a-4647-b032-fdb33f636050"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "04bee224-5551-4520-93b7-a6ba85624674",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T10:05:18.348Z",
+        "transaction_price": 40485,
+        "quantity": 30689,
+        "created_at": "2023-08-18T00:54:45.940Z",
+        "updated_at": "2023-08-18T03:52:28.092Z",
+        "holding_id": "46784069-1986-44ee-ac4e-c4c15d48f61b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74a33ff9-d9e5-4abb-8da4-2dea8e8552a7",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-17T14:38:29.571Z",
+        "transaction_price": 58982,
+        "quantity": 11738,
+        "created_at": "2023-08-17T17:14:00.978Z",
+        "updated_at": "2023-08-17T15:38:37.339Z",
+        "holding_id": "b90d5f33-d3cb-4e47-a91c-8f159979a41a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66d01b72-ce58-4189-b90b-b492f88e8d52",
+        "transaction_type": "Exchange",
+        "transaction_date": "2023-08-18T04:30:14.756Z",
+        "transaction_price": 42703,
+        "quantity": 52708,
+        "created_at": "2023-08-17T15:04:30.080Z",
+        "updated_at": "2023-08-17T08:02:12.346Z",
+        "holding_id": "c107a042-ae24-45d0-8fe7-2e97d81b6ca5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ea6fb04-497b-4963-a18e-4d148dd10579",
+        "transaction_type": "Invest",
+        "transaction_date": "2023-08-17T23:38:05.578Z",
+        "transaction_price": 63519,
+        "quantity": 3271,
+        "created_at": "2023-08-17T17:40:09.916Z",
+        "updated_at": "2023-08-18T02:03:15.898Z",
+        "holding_id": "c107a042-ae24-45d0-8fe7-2e97d81b6ca5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c8fd93f-9d98-46f4-a162-3bf780e642e1",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-17T20:10:02.055Z",
+        "transaction_price": 28028,
+        "quantity": 13480,
+        "created_at": "2023-08-17T15:37:09.294Z",
+        "updated_at": "2023-08-17T12:29:21.675Z",
+        "holding_id": "c107a042-ae24-45d0-8fe7-2e97d81b6ca5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "3480fdaa-d00a-4731-9398-74ce4c17cf22",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-17T07:08:27.419Z",
+        "end_date": "2023-08-17T18:32:51.047Z",
+        "created_at": "2023-08-17T10:23:55.966Z",
+        "updated_at": "2023-08-17T23:35:54.059Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b571d19e-9520-4efc-9427-5500777315ae",
+        "role": "Superuser",
+        "status": "Inactive",
+        "start_date": "2023-08-17T23:41:30.414Z",
+        "end_date": "2023-08-17T13:25:20.646Z",
+        "created_at": "2023-08-18T03:38:43.573Z",
+        "updated_at": "2023-08-18T05:11:53.092Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a914d49-b79f-4203-8e5e-51c609eedaa3",
+        "role": "Manager",
+        "status": "Pending",
+        "start_date": "2023-08-17T13:37:55.208Z",
+        "end_date": "2023-08-18T04:09:38.293Z",
+        "created_at": "2023-08-17T06:45:19.643Z",
+        "updated_at": "2023-08-17T21:27:31.881Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d92538a6-4b10-4cb9-972b-26c249617b58",
+        "role": "Supervisor",
+        "status": "Blocked",
+        "start_date": "2023-08-17T16:48:07.839Z",
+        "end_date": "2023-08-17T21:07:36.620Z",
+        "created_at": "2023-08-17T09:22:19.392Z",
+        "updated_at": "2023-08-17T14:07:29.901Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e3c15c7-3fe6-4ab4-b035-56921a47e494",
+        "role": "Analyst",
+        "status": "Suspended",
+        "start_date": "2023-08-18T00:22:45.786Z",
+        "end_date": "2023-08-18T04:54:28.358Z",
+        "created_at": "2023-08-17T15:40:42.843Z",
+        "updated_at": "2023-08-18T01:23:21.106Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f9137999-8284-49f4-b87f-94f6a4db31f5",
+        "email": "Kiana_Heaney50@yahoo.com",
+        "firstName": "Clare",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41236066",
+        "tenantId": null
+      },
+      {
+        "reference": "14372f2c-7b07-4293-b7b1-fbf45e0ead11",
+        "email": "Dedrick89@yahoo.com",
+        "firstName": "Vivian",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/471.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3550f757-0149-4d09-963f-ace4f22e2f23",
+        "email": "Nicole.Romaguera47@gmail.com",
+        "firstName": "Deshawn",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75153657",
+        "tenantId": null
+      },
+      {
+        "reference": "4b3bc5f5-ed85-4a9b-9951-d347c90f27ae",
+        "email": "Ulices85@hotmail.com",
+        "firstName": "Efrain",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/91.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0cb61290-68a4-4332-9ae9-e432d0d7ad04",
+        "email": "Kade78@gmail.com",
+        "firstName": "Pamela",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23409864",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "53c8c7d6-4886-4639-8f73-d6c5a62576b0",
+        "name": "Apple Inc.",
+        "ticker_symbol": "AAPL",
+        "market": "NASDAQ",
+        "price": 27349,
+        "quantity": 33383,
+        "created_at": "2023-08-18T02:48:29.309Z",
+        "updated_at": "2023-08-17T13:38:24.080Z"
+      },
+      {
+        "id": "87f6beb3-7153-4816-b58f-6836afb75ed2",
+        "name": "Microsoft Corporation",
+        "ticker_symbol": "MSFT",
+        "market": "NASDAQ",
+        "price": 77882,
+        "quantity": 99358,
+        "created_at": "2023-08-17T13:19:57.631Z",
+        "updated_at": "2023-08-18T01:12:41.680Z"
+      },
+      {
+        "id": "609b9986-b565-42a3-b4b9-fcef21423fbe",
+        "name": "Amazon.com Inc.",
+        "ticker_symbol": "AMZN",
+        "market": "NASDAQ",
+        "price": 24111,
+        "quantity": 24367,
+        "created_at": "2023-08-17T07:01:06.352Z",
+        "updated_at": "2023-08-17T21:20:27.787Z"
+      },
+      {
+        "id": "098417af-398d-458a-a678-f0e9f4f65301",
+        "name": "Tesla Inc.",
+        "ticker_symbol": "TSLA",
+        "market": "NASDAQ",
+        "price": 45230,
+        "quantity": 9728,
+        "created_at": "2023-08-18T04:30:59.765Z",
+        "updated_at": "2023-08-18T04:21:26.375Z"
+      },
+      {
+        "id": "eebaad07-5d2e-4a5a-8164-d7113e080cf7",
+        "name": "Google LLC",
+        "ticker_symbol": "GOOGL",
+        "market": "NASDAQ",
+        "price": 31115,
+        "quantity": 76297,
+        "created_at": "2023-08-17T06:01:18.983Z",
+        "updated_at": "2023-08-17T11:16:49.513Z"
+      }
+    ],
+    "holding": [
+      {
+        "id": "adc7e8d9-b213-4575-a43a-1ddf916f8a2d",
+        "purchase_price": 39923,
+        "purchase_date": "2023-08-17T18:06:49.408Z",
+        "quantity": 65150,
+        "created_at": "2023-08-17T22:39:45.550Z",
+        "updated_at": "2023-08-17T16:28:56.414Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "53c8c7d6-4886-4639-8f73-d6c5a62576b0"
+      },
+      {
+        "id": "8be27c5d-e5b4-408f-babc-f5613cfe4e68",
+        "purchase_price": 16321,
+        "purchase_date": "2023-08-17T11:43:17.349Z",
+        "quantity": 31763,
+        "created_at": "2023-08-17T15:55:55.535Z",
+        "updated_at": "2023-08-17T11:57:57.262Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "609b9986-b565-42a3-b4b9-fcef21423fbe"
+      },
+      {
+        "id": "69264fd3-eaf8-454e-8cdd-4197e63f7238",
+        "purchase_price": 19827,
+        "purchase_date": "2023-08-17T21:21:48.546Z",
+        "quantity": 3239,
+        "created_at": "2023-08-18T00:35:09.389Z",
+        "updated_at": "2023-08-17T08:13:20.308Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "eebaad07-5d2e-4a5a-8164-d7113e080cf7"
+      },
+      {
+        "id": "0081f5fd-d900-408a-b187-5ecf5ff70472",
+        "purchase_price": 47562,
+        "purchase_date": "2023-08-17T08:33:41.105Z",
+        "quantity": 94945,
+        "created_at": "2023-08-17T16:19:37.870Z",
+        "updated_at": "2023-08-18T04:49:53.643Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "eebaad07-5d2e-4a5a-8164-d7113e080cf7"
+      },
+      {
+        "id": "be54da36-b5f2-445c-b6fb-34ed9df8d941",
+        "purchase_price": 70601,
+        "purchase_date": "2023-08-18T00:07:10.177Z",
+        "quantity": 19192,
+        "created_at": "2023-08-17T10:38:39.191Z",
+        "updated_at": "2023-08-17T22:41:41.601Z",
+        "organization_id": "main_entity_pk",
+        "stock_id": "53c8c7d6-4886-4639-8f73-d6c5a62576b0"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "0a1370f2-8345-4df2-8e67-8ca10a43feb2",
+        "transaction_type": "Buy",
+        "transaction_date": "2023-08-17T18:01:29.538Z",
+        "transaction_price": 66658,
+        "quantity": 17652,
+        "created_at": "2023-08-17T14:56:13.093Z",
+        "updated_at": "2023-08-17T06:23:07.075Z",
+        "holding_id": "be54da36-b5f2-445c-b6fb-34ed9df8d941",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcbc73aa-042c-4a8e-ae45-9fe3d51ed374",
+        "transaction_type": "Sell",
+        "transaction_date": "2023-08-17T09:16:25.373Z",
+        "transaction_price": 46301,
+        "quantity": 52479,
+        "created_at": "2023-08-18T02:34:21.255Z",
+        "updated_at": "2023-08-18T00:02:18.665Z",
+        "holding_id": "8be27c5d-e5b4-408f-babc-f5613cfe4e68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4eecc161-def8-4cd1-9032-e5fae43d49c8",
+        "transaction_type": "Transfer",
+        "transaction_date": "2023-08-17T18:25:48.090Z",
+        "transaction_price": 60855,
+        "quantity": 12013,
+        "created_at": "2023-08-17T21:18:11.690Z",
+        "updated_at": "2023-08-17T20:43:11.311Z",
+        "holding_id": "0081f5fd-d900-408a-b187-5ecf5ff70472",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93f976aa-dde6-4d1f-897d-0445e4476fe1",
+        "transaction_type": "Deposit",
+        "transaction_date": "2023-08-17T21:08:28.595Z",
+        "transaction_price": 83940,
+        "quantity": 29076,
+        "created_at": "2023-08-18T02:39:55.699Z",
+        "updated_at": "2023-08-17T08:44:47.712Z",
+        "holding_id": "8be27c5d-e5b4-408f-babc-f5613cfe4e68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b61dc1c0-c542-4b36-872a-df88cca5d1b0",
+        "transaction_type": "Withdraw",
+        "transaction_date": "2023-08-17T23:37:24.285Z",
+        "transaction_price": 99111,
+        "quantity": 81987,
+        "created_at": "2023-08-18T01:05:46.595Z",
+        "updated_at": "2023-08-18T01:34:28.456Z",
+        "holding_id": "adc7e8d9-b213-4575-a43a-1ddf916f8a2d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "6d46a378-8ad6-4b62-a9e9-5025fc336bbc",
+        "role": "Admin",
+        "status": "Active",
+        "start_date": "2023-08-18T01:55:44.862Z",
+        "end_date": "2023-08-17T07:53:11.610Z",
+        "created_at": "2023-08-17T13:02:29.397Z",
+        "updated_at": "2023-08-17T13:56:05.700Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85f2c5d5-9a35-49b6-9552-e2084d07e5d0",
+        "role": "Manager",
+        "status": "Inactive",
+        "start_date": "2023-08-17T08:30:23.334Z",
+        "end_date": "2023-08-17T23:40:15.149Z",
+        "created_at": "2023-08-18T03:52:36.567Z",
+        "updated_at": "2023-08-17T21:42:05.206Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bad4c9ec-d9bd-4d0f-b7eb-ca555acd36af",
+        "role": "Supervisor",
+        "status": "Pending",
+        "start_date": "2023-08-17T19:43:45.126Z",
+        "end_date": "2023-08-17T14:58:24.342Z",
+        "created_at": "2023-08-17T10:52:32.630Z",
+        "updated_at": "2023-08-17T06:54:38.572Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25eb9146-b154-40ff-96a1-461729e52cd3",
+        "role": "Analyst",
+        "status": "Suspended",
+        "start_date": "2023-08-17T12:39:36.227Z",
+        "end_date": "2023-08-17T21:35:31.155Z",
+        "created_at": "2023-08-17T16:04:29.177Z",
+        "updated_at": "2023-08-18T01:04:33.813Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9913c9d6-f824-41f2-9f19-dede9fcde852",
+        "role": "Coordinator",
+        "status": "Blocked",
+        "start_date": "2023-08-17T23:50:13.120Z",
+        "end_date": "2023-08-17T23:17:27.902Z",
+        "created_at": "2023-08-17T18:06:19.220Z",
+        "updated_at": "2023-08-17T16:02:51.704Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9d27582f-d477-4790-b678-0dcf8f98fb51",
+        "email": "Alphonso49@gmail.com",
+        "firstName": "Ressie",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/248.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93e82535-8494-4b67-9215-b34a84fc874e",
+        "email": "Nathanial.Ullrich57@hotmail.com",
+        "firstName": "Lenna",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bfcab91-7fd2-4677-8625-999fde7d2c37",
+        "email": "Edmond_Walsh26@gmail.com",
+        "firstName": "Ethyl",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24903571",
+        "tenantId": null
+      },
+      {
+        "reference": "1db301ac-37c3-4ea6-9a71-1a878d75f0f6",
+        "email": "Maya66@gmail.com",
+        "firstName": "Dannie",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49025928",
+        "tenantId": null
+      },
+      {
+        "reference": "2d2280e0-4046-4645-804e-5c96d03ea847",
+        "email": "Ericka47@hotmail.com",
+        "firstName": "Kira",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68889196",
+        "tenantId": null
+      }
+    ]
+  }
+]
